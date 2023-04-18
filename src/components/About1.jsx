@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 function About1() {
   return (
-   <div className=' mt-12 lg:mt-0 flex flex-col justify-center items-center h-full p-20 sm:p-0 lg:h-3/5 '>
+   <div className='bg-white mt-12 lg:mt-0 flex flex-col justify-center items-center h-full p-20 sm:p-0 lg:h-3/5 '>
     <div className='mb-3 text-xl border-b border-black font-bold'>
     About
     </div>

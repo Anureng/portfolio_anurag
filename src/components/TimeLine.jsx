@@ -2,7 +2,7 @@ import React from 'react'
 
 function TimeLine() {
   return (
-    <div className='flex justify-center items-center flex-col space-y-10 h-screen lg:w-5/5 '>
+    <div className=' bg-white flex justify-center items-center flex-col space-y-10 h-screen lg:w-5/5 '>
       <div className='border-b border-black text-xl font-semibold
       '>
         Education

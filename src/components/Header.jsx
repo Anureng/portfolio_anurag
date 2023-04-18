@@ -3,7 +3,7 @@ import { SocialIcon } from 'react-social-icons';
 import Image from 'next/image'
 function Header() {
   return (
-    <div className='h-screen  flex  items-center flex-col space-y-5 lg:space-y-0 mt-10 lg:mt-0'>
+    <div className='h-screen bg-white  flex  items-center flex-col space-y-5 lg:space-y-0 mt-10 lg:mt-0'>
       <div className=' flex flex-col lg:flex-row p-10 lg:p-36  justify-center items-center space-y-8 lg:space-x-20  '>
         <div className='bg-gray-200 rounded-xl flex justify-center items-baseline  flex-col space-y-6 p-4 lg:w-3/6'>
       <div className='font-bold text-xl'>
