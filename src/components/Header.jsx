@@ -1,5 +1,6 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons';
+import Image from 'next/image'
 function Header() {
   return (
     <div className='h-screen  flex  items-center flex-col space-y-5 lg:space-y-0 mt-10 lg:mt-0'>
@@ -19,8 +20,10 @@ function Header() {
       </div>
 </div>
         <div>
-        <img
+        <Image
           src="/user.JPG"
+          width={350}
+          height={350}
            className="w-52 rounded-full shadow-2xl"
            alt="Avatar" />
   </div>

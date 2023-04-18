@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 function About1() {
   return (
    <div className=' mt-12 lg:mt-0 flex flex-col justify-center items-center h-full p-20 sm:p-0 lg:h-3/5 '>
@@ -8,7 +8,7 @@ function About1() {
     </div>
     <div className='  flex lg:flex-row flex-col justify-center items-center lg:space-x-20 space-y-4'>
         <div>
-            <img src="/about.jpg" className="  shadow-2xl w-96" alt="" />
+            <Image height={350} width={350} src="/about.jpg" className="  shadow-2xl w-96" alt="" />
         </div>
             <div className='  bg-gray-200 rounded-xl space-y-4 p-4 w-screen lg:w-2/5 flex flex-col justify-center items-center'>
         <div className=' w-fit flex space-x-4'>

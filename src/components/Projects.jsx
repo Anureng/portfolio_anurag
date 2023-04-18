@@ -1,5 +1,6 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons';
+import Image from 'next/image'
 function Projects() {
   return (
     <div className='p-2 flex flex-col  space-x-10 justify-center items-center '>
@@ -9,10 +10,12 @@ function Projects() {
         <div className='flex flex-wrap  justify-center items-center  w-fit gap-20 p-2'>
         <div
   className=" p-4 w-96 block  rounded-lg bg-gray-200 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
-    <img
+    <Image
       className="rounded-t-lg "
       src="/sales_1.jpg"
-      alt="" />
+      height={350}
+      width={350}
+      alt="Nothing" />
 
   <div className="p-6">
     <h5
@@ -46,18 +49,21 @@ Next js + Tailwind Css + Solidity + Wagmi + RainbowKit
     <div
   className=" p-4 w-96 block rounded-lg bg-gray-200 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
   
-    <img
+    <Image
       className="rounded-t-lg "
-      src="chatDapp.png"
-      alt="" />
+      src="/chatDapp.png"
+      height={350}
+      width={350}
+      alt="Nothing" />
 
   <div className="p-6">
     <h5
       className="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
       Chat Dapp
     </h5>
-    <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-    This project name is chatDapp . It's my one of the best and hard project till now .
+<p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+
+This project name is chatDapp . It&apos;s my one of the best and hard project till now .
 With this web application user can add their account , add their friend and user can do chat with their friend .
 User need a metamask and some Goerli Ether to interact with this chatDapp .
 Everything is store on blockchain and you can see on the etherscan. <br />
@@ -84,10 +90,12 @@ Next js + Tailwind Css + Solidity + Web3.js + Hardhat
 <div
   className="p-4 w-96 block rounded-lg bg-gray-200 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
   
-    <img
+    <Image
       className="rounded-t-lg "
-      src="workoutFirst.png"
-      alt="" />
+      src="/workoutFirst.png"
+      height={350}
+      width={350}
+      alt="Nothing" />
 
   <div className="p-6">
     <h5
@@ -120,10 +128,12 @@ Next js + Tailwind Css + Mongo Db + Node.js
 <div
   className="bg-gray-200 p-4 w-96 block rounded-lg  shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
   
-    <img
+    <Image
       className="rounded-t-lg "
-      src="anurag.png"
-      alt="" />
+      src="/anurag.png"
+      height={350}
+      width={350}
+      alt="Nothing" />
 
   <div className="p-6">
     <h5

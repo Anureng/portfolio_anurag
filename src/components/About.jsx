@@ -1,12 +1,12 @@
 import React from 'react'
-
+import Image from 'next/image'
 function About() {
   return (
     <div className='h-screen'>
       <div className='border space-y-8 border-black flex flex-col lg:flex-row justify-center items-center'>
         <div>About Page</div>
         
-          <img src="/about.jpg"   className="  shadow-2xl w-96" alt="About" />
+          <Image src="/about.jpg"   className="  shadow-2xl w-96" alt="About" />
         
         <div>
           <div className='border border-black flex  flex-col justify-center items-center space-y-10'>
