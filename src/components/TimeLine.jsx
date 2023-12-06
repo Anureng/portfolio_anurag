@@ -50,21 +50,23 @@ function TimeLine() {
     <div className="ml-4 mt-2 pb-5">
       <h4 className="mb-1.5 text-xl font-semibold">S.S.T college of arts and commerce</h4>
       <p className="mb-3 text-neutral-500 dark:text-neutral-300">
-      I am pursuing BSc IT in college  and currently i am in 3rd year
+      I Completed my bachelors degree at the University of mumbai with 8.82 cgpi
       </p>
     </div>
   </li>
-  <li>    <div className="flex-start flex items-center pt-2">
+  <li>    
+    {/* <div className="flex-start flex items-center pt-2">
       <div
         className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500"></div>
       <p className="text-sm text-neutral-500 dark:text-neutral-300">
         1-6-2023
       </p>
-    </div>
-    <div className="ml-4 mt-2 pb-5">
+    </div> */}
+    {/* <div className="ml-4 mt-2 pb-5">
       <h4 className="mb-1.5 text-xl font-semibold">Pending</h4>
     
-    </div></li>
+    </div> */}
+    </li>
 </ol>
         </div>
     </div>
