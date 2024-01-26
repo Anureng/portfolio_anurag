@@ -12,7 +12,7 @@ function Header() {
           {/* <div>
             While I may not have a lot of experience yet, I have been working hard to develop my skills.  I have completed <em className='font-bold text-lg'> Full Stack Web Development </em> and <em className='font-bold text-lg'> BlockChain Development </em>.  I am also continuously learning and exploring new techniques to improve my abilities.</div> */}
 
-          <div>Greetings! I'm Anurag Sidhu, a passionate <em className='font-bold text-lg'> Full Stack Web Development </em>with a flair for creating captivating user interfaces. With a burgeoning interest in the world of technology, I've extended my expertise into the realm of <em className='font-bold text-lg'> Blockchain Development </em>, combining the art of frontend design with the innovation of decentralized systems.</div>
+          <div>Greetings! Im Anurag Sidhu, a passionate <em className='font-bold text-lg'> Full Stack Web Development </em>with a flair for creating captivating user interfaces. With a burgeoning interest in the world of technology, Ive extended my expertise into the realm of <em className='font-bold text-lg'> Blockchain Development </em>, combining the art of frontend design with the innovation of decentralized systems.</div>
           <div className='space-x-4'>
             <a href="mailto:anuragsidhu72@gmail.com" target='_blank'>
               <button className='bg-white rounded-xl px-1 py-2'>
